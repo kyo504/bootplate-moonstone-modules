@@ -1,0 +1,12 @@
+{
+	"name": "bootplate-moonstone-modules",
+	"main": "index.js",
+	"assets": [
+		"assets/*.png"
+	],
+	"styles": [
+		"style/*.less"
+	],
+	"outJsFile": "app.js",
+	"outCssFile": "app.css"
+}
