@@ -9,4 +9,4 @@ module.exports = kind({
 	name: "myapp.Application",
 	kind: Application,
 	view: MainView
-})
+});

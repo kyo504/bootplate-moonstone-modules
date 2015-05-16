@@ -1,10 +1,9 @@
 var
-	kind = require('enyo/kind'),
 	ready = require('enyo/ready');
 
 var
-	Application = require('./src/app');
+	App = require('./src/app');
 
 ready(function(){
-	new Application({name: "app"});
-})
+	new App({name: "app"});
+});
