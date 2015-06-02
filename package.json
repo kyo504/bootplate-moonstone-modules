@@ -8,7 +8,7 @@
     "mock/*"
   ],
   "styles": [
-    "style/*.less"
+    "src/style/*.less"
   ],
   "outJsFile": "app.js",
   "outCssFile": "app.css"
