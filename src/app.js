@@ -1,4 +1,16 @@
 var
+	dispatcher = require('enyo/dispatcher'),
+	Control = require('enyo/Control'),
+	Spotlight = require('spotlight');
+
+var
+	enyo = global.enyo = global.enyo || {};
+
+enyo.$ = dispatcher.$;
+enyo.Control = Control;
+enyo.Spotlight = Spotlight;
+
+var
 	kind = require('enyo/kind'),
 	Application = require('enyo/Application');
 
